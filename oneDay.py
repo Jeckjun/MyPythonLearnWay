@@ -2,9 +2,9 @@
 
 name = '张三'
 age = 20
-print('Art %5d, piece per Unit %8.2f' %(453,59.058))
-print(complex(1,2))
-print('{0:s},,,,{1:d},,,,,,,{0:s}'.format(name,age))
+print('Art %5d, piece per Unit %8.2f' %(453, 59.058))
+print(complex(1, 2))
+print('{0:s},,,,{1:d},,,,,,,{0:s}'.format(name, age))
 
 
 '''while 1:
