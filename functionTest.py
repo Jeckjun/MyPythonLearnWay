@@ -77,14 +77,15 @@
 # print(fbo(11))
 
 # 汉诺塔算法
-def hannota(n, x, y, z):    # n是盘子数,x,y,z为形参作为柱子
-    if n == 1:  # 递归出口
-        print("从", x, '放到', z)
-        return              # 返回None
-    else:
-        hannota(n-1, x, z, y)  # 把x上的n-1个盘子借助z，移动到y上
-        hannota(1, x, y, z)    # 把x上最下面的盘子移动到z上
-        hannota(n-1, y, x, z)  # 最后把y上的n-1个盘子借助x移动到，z上，大功告成
-hannota(9, '盘子X', '盘子Y', '盘子Z')   # 传递实参进去
+# def hannota(n, x, y, z):    # n是盘子数,x,y,z为形参作为柱子
+#     if n == 1:  # 递归出口
+#         print("从", x, '放到', z)
+#         return              # 返回None
+#     else:
+#         hannota(n-1, x, z, y)  # 把x上的n-1个盘子借助z，移动到y上
+#         hannota(1, x, y, z)    # 把x上最下面的盘子移动到z上
+#         hannota(n-1, y, x, z)  # 最后把y上的n-1个盘子借助x移动到，z上，大功告成
+# hannota(9, '盘子X', '盘子Y', '盘子Z')   # 传递实参进去
+
 
 
